@@ -1,0 +1,39 @@
+body {
+    background-color: blueviolet;
+}
+
+h1{
+  color: beige;  
+}
+
+h2{
+    color: azure;
+}
+
+.container {
+    width: 70vw;
+    height: 70vh;
+    display: grid;
+    background-color: black;
+    grid-template-rows: repeat(5, auto);
+    grid-column: repeat(5, auto);
+    margin: auto auto;
+}
+
+#A {
+    grid-column: 8/9;
+    grid-row: 3/2;
+    background-color: blue;
+}
+#B {
+    grid-area: 4 / 9 / 7 / 2;
+    background-color: brown;
+}
+#C {
+    grid-column: 5/6;
+    grid-row: 4/1;
+    background-color: goldenrod;
+}
+.container:hover {
+    background-color: aquamarine;
+}
